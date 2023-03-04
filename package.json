@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "node-sass": "node-sass",
-    "sass": "node-sass styles/main.scss style.css"
+    "sass": "node-sass -w -r styles/main.scss style.css"
   },
   "keywords": [],
   "author": "",
